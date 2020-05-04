@@ -1,6 +1,21 @@
-# HTML and CSS
+# HTML
 
-### 04.03.2020
-### Learn to Code HTML & CSS
-https://learn.shayhowe.com/html-css/
-shay_howe
+[W3C - current HTML standard](https://html.spec.whatwg.org/multipage/)
+
+[MDN web docs (Mozilla Developer Network) - HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
+## [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+
+\<html>  
+\<base>  
+\<head>  
+\<link>  
+\<meta>  
+\<style>  
+\<title>  
+\<body>  
+[...](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+
+## [Global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
+
+Global attributes are attributes common to all HTML elements; they can be used on all elements, though they may have no effect on some elements[...](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)

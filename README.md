@@ -1,6 +1,6 @@
 # HTML
 
-[W3C - current HTML standard](https://html.spec.whatwg.org/multipage/)
+[WHATWG - current HTML standard](https://html.spec.whatwg.org/multipage/)
 
 [MDN web docs (Mozilla Developer Network) - HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 

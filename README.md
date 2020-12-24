@@ -35,6 +35,6 @@ title
 
 [MDN web docs (Mozilla Developer Network) - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-## Articles
+## :newspaper: Articles
 
-folder "said_hayani": [HTML Center Text – How to CSS Vertical Align a Div](https://www-freecodecamp-org.cdn.ampproject.org/c/s/www.freecodecamp.org/news/html-center-text-how-to-css-vertical-align-a-div/amp/)  
+:file_folder: folder "said_hayani": :link: [HTML Center Text – How to CSS Vertical Align a Div](https://www-freecodecamp-org.cdn.ampproject.org/c/s/www.freecodecamp.org/news/html-center-text-how-to-css-vertical-align-a-div/amp/)  

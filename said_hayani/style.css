@@ -24,15 +24,35 @@
     display: flex;
 }
 .flex-container div {
-    width: 33%;
+    width: 33.33%;
     height: 60px;
 }
-.flex-right {
+.flex-container .flex-right {
     background-color: lightsalmon;
 }
-.flex-center {
+.flex-container .flex-center {
     background-color: lightseagreen;
 }
-.flex-left {
+.flex-container .flex-left {
+    background-color: lightskyblue;
+}
+
+.flex-container-2 {
+    display: flex;
+    height: 60px;
+    border: 1px solid black;
+}
+.flex-container-2 div {
+    align-self: center;
+    background-color: lightskyblue;
+}
+
+.flex-container-3 {
+    display: flex;
+    height: 60px;
+    border: 1px solid black;
+}
+.flex-container-3 div {
+    align-self: flex-end;
     background-color: lightskyblue;
 }

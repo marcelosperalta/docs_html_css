@@ -1,0 +1,38 @@
+.float-right {
+    background-color: lightgray;
+    float: right;
+}
+.float-left {
+    background-color: lightgray;
+    float: left;
+}
+
+.text-align-right {
+    background-color: lightpink;
+    text-align: right;
+}
+.text-align-left {
+    background-color: lightsalmon;
+    text-align: left;
+}
+.text-align-center {
+    background-color: lightseagreen;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+}
+.flex-container div {
+    width: 33%;
+    height: 60px;
+}
+.flex-right {
+    background-color: lightsalmon;
+}
+.flex-center {
+    background-color: lightseagreen;
+}
+.flex-left {
+    background-color: lightskyblue;
+}

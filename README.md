@@ -1,3 +1,11 @@
+# Summary
+
+## [HTML](https://github.com/marcelosperalta/study_html_css#html)
+- [HTML elements reference](https://github.com/marcelosperalta/study_html_css#html-elements-reference)
+- [Global attributes](https://github.com/marcelosperalta/study_html_css#global-attributes)
+
+## [CSS](https://github.com/marcelosperalta/study_html_css#css)
+
 # HTML
 
 [WHATWG - current HTML standard](https://html.spec.whatwg.org/multipage/)
@@ -28,6 +36,10 @@ id
 style  
 title  
 [...](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
+
+## [Courses](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
+
+- [freeCodeCamp - Responsive Web Design](./course_freecodecamp)
 
 # CSS
 

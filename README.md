@@ -3,6 +3,7 @@
 ## [HTML](https://github.com/marcelosperalta/study_html_css#html)
 - [HTML elements reference](https://github.com/marcelosperalta/study_html_css#html-elements-reference)
 - [Global attributes](https://github.com/marcelosperalta/study_html_css#global-attributes)
+- [Courses](https://github.com/marcelosperalta/study_html_css#courses)
 
 ## [CSS](https://github.com/marcelosperalta/study_html_css#css)
 
@@ -37,7 +38,7 @@ style
 title  
 [...](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
 
-## [Courses](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
+## Courses
 
 - [freeCodeCamp - Responsive Web Design](./course_freecodecamp)
 
@@ -49,6 +50,8 @@ title
 
 ## :newspaper: Articles
 
-:file_folder: folder "article_ondrej_polesny": :link: [Flexbox vs Grid - How to Build the Most Common HTML Layouts](https://www.freecodecamp.org/news/flexbox-vs-grid-how-to-build-the-most-common-html-layouts/)  
+:link: [Flexbox vs Grid - How to Build the Most Common HTML Layouts](https://www.freecodecamp.org/news/flexbox-vs-grid-how-to-build-the-most-common-html-layouts/)  
+:file_folder: folder "article_ondrej_polesny":  
 
-:file_folder: folder "article_said_hayani": :link: [HTML Center Text – How to CSS Vertical Align a Div](https://www.freecodecamp.org/news/html-center-text-how-to-css-vertical-align-a-div/)  
+:link: [HTML Center Text – How to CSS Vertical Align a Div](https://www.freecodecamp.org/news/html-center-text-how-to-css-vertical-align-a-div/)  
+:file_folder: folder "article_said_hayani":  

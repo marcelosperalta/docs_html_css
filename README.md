@@ -1,11 +1,11 @@
 # Summary
 
-## [HTML](https://github.com/marcelosperalta/study_html_css#html)
+## [HTML](https://github.com/marcelosperalta/study_html_css#html-1)
 - [HTML elements reference](https://github.com/marcelosperalta/study_html_css#html-elements-reference)
 - [Global attributes](https://github.com/marcelosperalta/study_html_css#global-attributes)
 - [Courses](https://github.com/marcelosperalta/study_html_css#courses)
 
-## [CSS](https://github.com/marcelosperalta/study_html_css#css)
+## [CSS](https://github.com/marcelosperalta/study_html_css#css-1)
 
 # HTML
 

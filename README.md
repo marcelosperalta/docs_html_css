@@ -51,7 +51,7 @@ title
 ## :newspaper: Articles
 
 :link: [Flexbox vs Grid - How to Build the Most Common HTML Layouts](https://www.freecodecamp.org/news/flexbox-vs-grid-how-to-build-the-most-common-html-layouts/)  
-:file_folder: folder "article_ondrej_polesny":  
+:file_folder:[article_ondrej_polesny](https://github.com/marcelosperalta/study_html_css/tree/master/article_ondrej_polesny)  
 
 :link: [HTML Center Text – How to CSS Vertical Align a Div](https://www.freecodecamp.org/news/html-center-text-how-to-css-vertical-align-a-div/)  
-:file_folder: folder "article_said_hayani":  
+:file_folder: [article_said_hayani](https://github.com/marcelosperalta/study_html_css/tree/master/article_said_hayani)  

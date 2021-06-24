@@ -2,98 +2,111 @@
 <html>
 <head>
     <title>The best page ever</title>
+
     <style>
-        :root {
-            margin: 0 0 0 20px;
+        /* h2 {
+            color: blue;
+        } */
+        .red-text {
+            color: red;
+        }
+        p {
+            font-size: 16px;
         }
     </style>
 </head>
 <body>
-<!-- <h1>Hello World</h1> -->
-<h2>CatPhotoApp</h2>
-<br>
-<p>Hello Paragraph</p>
-<br>
-<!-- lorem ipsum -->
-<!-- lorem10 -->
-<!-- 
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, sunt.</p>
-<p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p> 
--->
+    <header>
+        <a href="#footer" target="_blank">Jump to Bottom</a>
 
-<!-- a (anchor) -->
+        <!-- <h2 style="color: red;">CatPhotoApp</h2> -->
+        <h2 class="red-text">CatPhotoApp</h2>
+    </header>
+    <main>
+        <!-- <h1>Hello World</h1> -->
+        <!-- <p>Hello Paragraph</p> -->
 
-<main>
-    <!-- <p> View more
-        <a href="https://www.freecatphotoapp.com" target="_blank">cat photos</a>
-    </p> -->
-    <p> View more
-        <a href="#" target="_blank">cat photos</a>
-    </p>
+        <!-- lorem ipsum -->
+        <!-- lorem10 -->
+        <!-- 
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, sunt.</p>
+        <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your 
+            ankles chase the red dot, hairball run catnip eat the grass sniff.</p> 
+        -->
+
+        <!-- a (anchor) -->
+        <!-- <p> View more
+            <a href="https://www.freecatphotoapp.com" target="_blank">cat photos</a>
+        </p> -->
+        <p class="red-text"> Click here to view more
+            <a href="#" target="_blank">cat photos</a>
+        </p>
+
+        <a href="#">
+            <img src="https://s3.amazonaws.com/freecodecamp/relaxing-cat.jpg" alt="Cat">
+        </a>
+
+        <!-- 
+        <p>
+            Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack 
+            your ankles chase the red dot, hairball run catnip eat the grass sniff.
+        </p>
+        
+        <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip 
+            the couch sleep in the sink fluffy fur catnip scratched.</p> -->
+
+        <div>
+            <p>Things cats love:</p>
+            <ul>
+                <li>cat nip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+
+            <p>Top 3 things cats hate:</p>
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+        </div>
+
+        <!-- 
+            Here, you have two radio inputs. When the user submits the form with the indoor option selected, 
+            the form data will include the line: indoor-outdoor=indoor. This is from the name and 
+            value attributes of the "indoor" input.
+            If you omit the value attribute, the submitted form data uses the default value, which is on. 
+            In this scenario, if the user clicked the "indoor" option and submitted the form, 
+            the resulting form data would be indoor-outdoor=on, which is not useful. 
+            So the value attribute needs to be set to something to identify the option. 
+        -->
+        <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+            <label for="indoor">
+                <input type="radio" name="indoor-outdoor" value="indoor" id="indoor" checked>Indoor
+            </label>
+            <label for="outdoor">
+                <input type="radio" name="indoor-outdoor" value="outdoor" id="outdoor">Outdoor
+            </label>
+            <br>
+            <label for="loving">
+                <input type="checkbox" id="loving" value="loving" name="personality" checked>Loving
+            </label>
+            <label for="loving">
+                <input type="checkbox" id="loving" value="lazy" name="personality">Lazy
+            </label>
+            <label for="loving">
+                <input type="checkbox" id="loving" value="energetic" name="personality">Energetic
+            </label>
+            <br>
+            <input type="text" placeholder="This is placeholder text">
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
     <br>
-    <a href="#footer" target="_blank">Jump to Bottom</a>
-    <br>
-    <a href="#">
-        <img src="https://s3.amazonaws.com/freecodecamp/relaxing-cat.jpg" alt="Cat">
-    </a>
 
-    <!-- <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
-    
-    <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p> -->
-    <br>
-    <br>
-
-    <div>
-        <p>Things cats love:</p>
-        <ul>
-            <li>cat nip</li>
-            <li>laser pointers</li>
-            <li>lasagna</li>
-        </ul>
-        <br>
-        <p>Top 3 things cats hate:</p>
-        <ol>
-            <li>Water</li>
-            <li>Mouse</li>
-            <li>Lemon</li>
-        </ol>
-    </div>
-
-    <br>
-    <!-- 
-        Here, you have two radio inputs. When the user submits the form with the indoor option selected, 
-        the form data will include the line: indoor-outdoor=indoor. This is from the name and 
-        value attributes of the "indoor" input.
-        If you omit the value attribute, the submitted form data uses the default value, which is on. 
-        In this scenario, if the user clicked the "indoor" option and submitted the form, 
-        the resulting form data would be indoor-outdoor=on, which is not useful. 
-        So the value attribute needs to be set to something to identify the option. 
-    -->
-    <form action="https://www.freecatphotoapp.com/submit-cat-photo">
-        <label for="indoor">
-            <input type="radio" name="indoor-outdoor" value="indoor" id="indoor" checked>Indoor
-        </label>
-        <label for="outdoor">
-            <input type="radio" name="indoor-outdoor" value="outdoor" id="outdoor">Outdoor
-        </label>
-        <label for="loving">
-            <input type="checkbox" id="loving" value="loving" name="personality" checked>Loving
-        </label>
-        <label for="loving">
-            <input type="checkbox" id="loving" value="lazy" name="personality">Lazy
-        </label>
-        <label for="loving">
-            <input type="checkbox" id="loving" value="energetic" name="personality">Energetic
-        </label>
-        <input type="text" placeholder="This is placeholder text">
-        <button type="submit">Submit</button>
-    </form>
-</main>
-
-<br>
-
-<footer id="footer">
-    Copyright Cat Photo App
-</footer>
+    <footer id="footer">
+        Copyright Cat Photo App
+    </footer>
 </body>
 </html>

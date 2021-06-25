@@ -13,3 +13,5 @@ hese tags give a descriptive structure to your HTML, make your HTML easier to re
 [Basic CSS](https://www.freecodecamp.org/learn/responsive-web-design/#basic-css)  
 
 CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.  
+
+[Google Fonts](https://fonts.google.com/)  

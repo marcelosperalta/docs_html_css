@@ -31,6 +31,9 @@
         .silver-background {
             background-color: silver;
         }
+        #cat-photo-form {
+            background-color: green;
+        }
     </style>
 </head>
 <body>
@@ -98,7 +101,7 @@
             the resulting form data would be indoor-outdoor=on, which is not useful. 
             So the value attribute needs to be set to something to identify the option. 
         -->
-        <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+        <form action="https://www.freecatphotoapp.com/submit-cat-photo" id="cat-photo-form">
             <label for="indoor">
                 <input type="radio" name="indoor-outdoor" value="indoor" id="indoor" checked>Indoor
             </label>

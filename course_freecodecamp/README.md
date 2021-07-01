@@ -21,3 +21,13 @@ CSS, or Cascading Style Sheets, tell the browser how to display the text and oth
 - id
 - class
 - [attr=value] (e.g. [type='radio'])
+
+#### Absolute versus Relative Units
+
+_Absolute_  
+- in
+- mm
+
+_Relative_  
+- em
+- rem

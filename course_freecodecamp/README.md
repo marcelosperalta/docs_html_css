@@ -31,3 +31,92 @@ _Absolute_
 _Relative_  
 - em
 - rem
+
+#### Represent colors in CSS
+
+[RGB color model](https://en.wikipedia.org/wiki/RGB_color_model)  
+
+**Hed Code**  
+
+In CSS, we can use 6 hexadecimal digits to represent colors, two each for the red (R), green (G), and blue (B) components  
+
+_black:_  
+```
+color: #000000;
+```
+
+white:_  
+```
+color: #FFFFFF;
+```
+
+_red:_ 
+```
+color: #FF0000;
+```
+
+_green:_ 
+```
+color: #00FF00;
+```
+
+_blue:_ 
+```
+color: #0000FF;
+```
+
+**_Abbreviated Hex Code_**  
+
+For example, red's hex code #FF0000 can be shortened to #F00. This shortened form gives one digit for red, one digit for green, and one digit for blue.  
+This reduces the total number of possible colors to around 4,000. But browsers will interpret #FF0000 and #F00 as exactly the same color.  
+
+Short Hex Code  
+
+_red:_ 
+```
+color: #F00;
+```
+
+_green:_ 
+```
+color: #0F0;
+```
+
+_blue:_ 
+```
+color: #00F;
+```
+
+_cyan:_ 
+```
+color: #0FF;
+```
+
+**RGB values**  
+
+_black:_  
+```
+color: rgb(0, 0, 0);
+```
+
+white:_  
+```
+color: rgb(255, 255, 255);
+```
+
+_red:_ 
+```
+color: rgb(255, 0, 0);
+```
+
+_green:_ 
+```
+color: rgb(0, 255, 0);
+```
+
+_blue:_ 
+```
+color: rgb(0, 0, 255);
+```
+
+#### CSS Variables

@@ -120,3 +120,10 @@ color: rgb(0, 0, 255);
 ```
 
 #### CSS Variables
+
+```
+<style>
+    
+
+</style>
+```

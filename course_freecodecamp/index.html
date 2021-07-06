@@ -6,16 +6,29 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 
     <style>
+        /* :root is a pseudo-class selector that matches the root element of the document, 
+        usually the html element.  */
+        :root {
+            --p-color: purple;
+            --red: red;
+        }
         h2 {
             font-family: Lobster, monospace;
         }
         .red-text {
+
+            /* Improve Compatibility with Browser Fallbacks */
             color: red;
+            color: var(--red);
+            /* -------------------------------------------- */
+
             font-family: Lobster;
         }
         p {
             font-size: 16px;
             font-family: monospace;
+                            /* Fallback value */
+            color: var(--p-color, red);
         }
         .smaller-image {
             width: 100px;

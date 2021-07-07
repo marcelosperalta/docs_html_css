@@ -123,7 +123,12 @@ color: rgb(0, 0, 255);
 
 ```
 <style>
-    
-
+    :root {
+        --p-color: purple;
+    }
 </style>
 ```
+
+### Applied Visual Design
+
+- Use the ````<u>``` Tag to Underline Text

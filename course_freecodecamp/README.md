@@ -131,4 +131,25 @@ color: rgb(0, 0, 255);
 
 ### Applied Visual Design
 
-- Use the ````<u>``` Tag to Underline Text
+- Use the ```<u>``` Tag to Underline Text
+
+- Use the ```<em>``` Tag to Italicize Text
+
+- Use the ```<s>``` Tag to Strikethrough Text
+
+- Use the ```<hr>``` Tag to Create a Horizontal Line
+
+#### rgba()
+
+The RGB values can range from 0 to 255. The alpha value can range from 1, which is fully opaque or a solid color, to 0, which is fully transparent or clear.  
+
+**rgba stands for:**  
+r = red  
+g = green  
+b = blue  
+a = alpha/level of opacity  
+
+_example:_  
+```
+background-color: rgba(45, 45, 45, 0.1)
+```

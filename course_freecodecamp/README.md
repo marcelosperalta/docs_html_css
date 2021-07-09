@@ -139,11 +139,11 @@ color: rgb(0, 0, 255);
 
 - Use the ```<hr>``` Tag to Create a Horizontal Line
 
-#### rgba()
+**rgba()**
 
 The RGB values can range from 0 to 255. The alpha value can range from 1, which is fully opaque or a solid color, to 0, which is fully transparent or clear.  
 
-**rgba stands for:**  
+**_rgba stands for:_**  
 r = red  
 g = green  
 b = blue  
@@ -153,3 +153,18 @@ _example:_
 ```
 background-color: rgba(45, 45, 45, 0.1)
 ```
+**opacity:**  
+
+A value of 1 is opaque, which isn't transparent at all.  
+A value of 0.5 is half see-through.  
+A value of 0 is completely transparent.  
+
+**text-transform:**  
+Value | Result
+--- | ---
+lowercase | "transform me"
+uppercase | "TRANSFORM ME"
+capitalize | "Transform Me"
+initial | Use the default value
+inherit | Use the text-transform value from the parent element
+none | Default: Use the original text

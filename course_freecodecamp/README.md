@@ -175,4 +175,13 @@ none | Default: Use the original text
 
 **CSS Box Model**  
 
-```Block-level``` items automatically start on a new line (think headings, paragraphs, and divs) while ```inline``` items sit within surrounding content (like images or spans).
+**_Block-level_** items automatically start on a new line (think headings, paragraphs, and divs) while **_inline_** items sit within surrounding content (like images or spans).  
+
+The default layout of elements in this way is called the **_normal flow_** of a document, but CSS offers the position property to override it.  
+
+**relative**  
+allows you to specify how CSS should move it relative to its current position in the normal flow of the page.  
+
+**absolute**  
+locks the element in place relative to its parent container. Unlike the relative position, this removes the element from the normal flow of the document, so surrounding items ignore it. 
+One nuance with absolute positioning is that it will be locked relative to its closest positioned ancestor.  

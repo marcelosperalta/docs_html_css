@@ -168,3 +168,11 @@ capitalize | "Transform Me"
 initial | Use the default value
 inherit | Use the text-transform value from the parent element
 none | Default: Use the original text
+
+**pseudo-class selector**  
+
+:hover  
+
+**CSS Box Model**  
+
+```Block-level``` items automatically start on a new line (think headings, paragraphs, and divs) while ```inline``` items sit within surrounding content (like images or spans).

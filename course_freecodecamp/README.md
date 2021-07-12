@@ -185,3 +185,6 @@ allows you to specify how CSS should move it relative to its current position in
 **absolute**  
 locks the element in place relative to its parent container. Unlike the relative position, this removes the element from the normal flow of the document, so surrounding items ignore it. 
 One nuance with absolute positioning is that it will be locked relative to its closest positioned ancestor.  
+
+**fixed**  
+One key difference between the fixed and absolute positions is that an element with a fixed position won't move when the user scrolls.  

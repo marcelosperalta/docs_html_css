@@ -188,3 +188,13 @@ One nuance with absolute positioning is that it will be locked relative to its c
 
 **fixed**  
 One key difference between the fixed and absolute positions is that an element with a fixed position won't move when the user scrolls.  
+
+**float**  
+Floating elements are removed from the normal flow of a document and pushed to either the left or right of their containing parent element.  
+
+**z-index**  
+When elements are positioned to overlap (i.e. using position: absolute | relative | fixed | sticky), the element coming later in the HTML markup will, by default, appear on the top of the other elements. However, the z-index property can specify the order of how elements are stacked on top of one another.  
+
+**Center an Element Horizontally Using the margin Property**
+Another positioning technique is to center a block element horizontally. One way to do this is to set its margin to a value of auto.  
+This method works for images, too. Images are inline elements by default, but can be changed to block elements when you set the display property to block.  

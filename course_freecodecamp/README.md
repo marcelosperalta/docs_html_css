@@ -198,3 +198,37 @@ When elements are positioned to overlap (i.e. using position: absolute | relativ
 **Center an Element Horizontally Using the margin Property**
 Another positioning technique is to center a block element horizontally. One way to do this is to set its margin to a value of auto.  
 This method works for images, too. Images are inline elements by default, but can be changed to block elements when you set the display property to block.  
+
+[Color wheel](https://en.wikipedia.org/wiki/Color_wheel)  
+A color wheel or color circle is an abstract illustrative organization of color hues around a circle, which shows the relationships between primary colors, secondary colors, tertiary colors etc.  
+
+[Color model](https://en.wikipedia.org/wiki/Color_model)  
+A color model is an abstract mathematical model describing the way colors can be represented as tuples of numbers, typically as three or four values or color components. When this model is associated with a precise description of how the components are to be interpreted (viewing conditions, etc.), the resulting set of colors is called "color space." This section describes ways in which human color vision can be modeled.  
+
+**Adjust the Hue of a Color**  
+
+```hsl()```  
+
+_'h', 's', and 'l' of ```hsl()``` stand for hue, saturation, and lightness_  
+
+Colors have several characteristics including hue, saturation, and lightness. CSS3 introduced the hsl() property as an alternative way to pick a color by directly stating these characteristics.  
+
+**Hue** is what people generally think of as 'color'. If you picture a spectrum of colors starting with red on the left, moving through green in the middle, and blue on right, the hue is where a color fits along this line. In hsl(), hue uses a color wheel concept instead of the spectrum, where the angle of the color on the circle is given as a value between 0 and 360.  
+
+**Saturation** is the amount of gray in a color. A fully saturated color has no gray in it, and a minimally saturated color is almost completely gray. This is given as a percentage with 100% being fully saturated.  
+
+**Lightness** is the amount of white or black in a color. A percentage is given ranging from 0% (black) to 100% (white), where 50% is the normal color.  
+
+Here are a few examples of using ```hsl()``` with fully-saturated, normal lightness colors:
+
+Color | HSL
+--- | ---
+red | hsl(0, 100%, 50%)
+yellow | hsl(60, 100%, 50%)
+green | hsl(120, 100%, 50%)
+cyan | hsl(180, 100%, 50%)
+blue | hsl(240, 100%, 50%)
+magenta | hsl(300, 100%, 50%)
+
+**Adjust the Tone of a Color**  
+The ```hsl()``` option in CSS also makes it easy to adjust the tone of a color. Mixing white with a pure hue creates a tint of that color, and adding black will make a shade. Alternatively, a tone is produced by adding gray or by both tinting and shading. Recall that the 's' and 'l' of hsl() stand for saturation and lightness, respectively. The saturation percent changes the amount of gray and the lightness percent determines how much white or black is in the color. This is useful when you have a base hue you like, but need different variations of it.  

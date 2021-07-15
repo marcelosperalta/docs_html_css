@@ -232,3 +232,27 @@ magenta | hsl(300, 100%, 50%)
 
 **Adjust the Tone of a Color**  
 The ```hsl()``` option in CSS also makes it easy to adjust the tone of a color. Mixing white with a pure hue creates a tint of that color, and adding black will make a shade. Alternatively, a tone is produced by adding gray or by both tinting and shading. Recall that the 's' and 'l' of hsl() stand for saturation and lightness, respectively. The saturation percent changes the amount of gray and the lightness percent determines how much white or black is in the color. This is useful when you have a base hue you like, but need different variations of it.  
+
+**Gradual CSS Linear Gradient**  
+
+```linear-gradient()```  
+
+This is accessed through the background property's linear-gradient() function. Here is the general syntax:  
+
+```
+background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);
+```
+
+```repeating-linear-gradient()```  
+
+The repeating-linear-gradient() function is very similar to linear-gradient() with the major difference that it repeats the specified gradient pattern.  
+
+```
+background: repeating-linear-gradient(
+      90deg,
+      yellow 0px,
+      blue 40px,
+      green 40px,
+      red 80px
+    );
+```

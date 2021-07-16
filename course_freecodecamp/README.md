@@ -16,6 +16,25 @@ CSS, or Cascading Style Sheets, tell the browser how to display the text and oth
 
 [Google Fonts](https://fonts.google.com/)  
 
+### Vocabulary
+
+Property = ``transform``  
+Function = ``scale()``  
+
+```
+p {
+  transform: scale(2);
+}
+```
+
+Pseudo-classes = ``:hover``, etc...  
+
+```
+p:hover {
+  transform: scale(2.1);
+}
+```
+
 #### CSS Selectors
 
 - id
@@ -255,4 +274,46 @@ background: repeating-linear-gradient(
       green 40px,
       red 80px
     );
+```
+
+```url()```  
+
+```
+background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+```
+
+**Transform property**  
+
+To change the scale of an element, CSS has the transform property, along with its ```scale()``` function.  
+
+```scale()```  
+
+```
+div {
+    transform: scale(2);
+}
+```
+
+```:hover```  
+
+```
+div:hover {
+    transform: scale(2);
+}
+```
+
+```skewX()```  
+
+```
+div {
+    transform: skewX(-24deg)
+}
+```
+
+```skewY()```  
+
+```
+div {
+    transform: skewY(24deg)
+}
 ```

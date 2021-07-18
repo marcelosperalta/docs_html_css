@@ -317,3 +317,26 @@ div {
     transform: skewY(24deg)
 }
 ```
+
+**crescent moon shape**  
+
+```
+<style>
+  .center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 25px 10px 0 0 blue;
+                offset-x offset-y,
+  }
+
+</style>
+<div class="center"></div>
+```

@@ -21,6 +21,7 @@ CSS, or Cascading Style Sheets, tell the browser how to display the text and oth
 Property = ``transform``  
 Function = ``scale()``  
 
+**_code snippet:_**  
 ```
 p {
   transform: scale(2);
@@ -34,6 +35,25 @@ p:hover {
   transform: scale(2.1);
 }
 ```
+
+Elements = ``.heart``, ``#heart``, etc...  
+
+```
+.heart {
+  background-color: blue;
+}
+```
+
+Pseudo-elements = ``::before``, ``::after``, etc...  
+
+```
+.heart::before {
+  content: "";
+  background-color: yellow;
+}
+```
+
+``.heart::before`` = selector  
 
 #### CSS Selectors
 
@@ -339,4 +359,141 @@ div {
 
 </style>
 <div class="center"></div>
+```
+
+````::before```` and ````::after````  
+
+For the ``::before`` and ``::after`` pseudo-elements to function properly, they must have a defined ``content`` property. This property is usually used to add things like a photo or text to the selected element.  
+
+When the ``::before`` and ``::after`` pseudo-elements are used to make shapes, the ``content`` property is still required, but it's set to an empty string.  
+
+**heart shape**  
+
+```
+<style>
+  .heart {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    transform: rotate(-45deg);
+  }
+  .heart::after {
+    background-color: pink;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 25px;
+  }
+  .heart::before {
+    content: "";
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 0px;
+  }
+</style>
+<div class="heart"></div>
+```
+
+``@keyframes`` and **animation** properties  
+
+To animate an element, you need to know about the **animation** properties and the ``@keyframes`` rule.  
+
+The **animation** properties control how the animation should behave and the ``@keyframes`` rule controls what happens during that animation.  
+
+``animation-name``  
+
+``animation-name`` sets the name of the animation, which is later used by @keyframes to tell CSS which rules go with which animations.  
+
+``animation-duration``  
+
+``animation-duration`` sets the length of time for the animation.  
+
+```
+<style>
+  div {
+    height: 40px;
+    width: 70%;
+    background: black;
+    margin: 50px auto;
+    border-radius: 5px;
+  }
+
+  #rect {
+    animation-name: rainbow;
+    animation-duration: 4s;
+  }
+  @keyframes rainbow {
+    0% {
+      background-color: blue;
+    }
+    50% {
+      background-color: green;
+    }
+    100% {
+      background-color: yellow;
+    }
+  }
+</style>
+<div id="rect"></div>
+```
+
+**CSS Animation to Change the Hover State**  
+
+```
+<style>
+  button {
+    border-radius: 5px;
+    color: white;
+    background-color: #0F5897;
+    padding: 5px 10px 8px 10px;
+  }
+
+  button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+  }
+  @keyframes background-color {
+    100% {
+      background-color: #4791d0;
+    }
+  }
+</style>
+<button>Register</button>
+```
+
+``animation-fill-mode``  
+
+```
+<style>
+  button {
+    border-radius: 5px;
+    color: white;
+    background-color: #0F5897;
+    padding: 5px 10px 8px 10px;
+  }
+  button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+  }
+  @keyframes background-color {
+    100% {
+      background-color: #4791d0;
+    }
+  }
+</style>
+<button>Register</button>
 ```

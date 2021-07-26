@@ -858,3 +858,19 @@ example 2:
 
 ### [Applied Accessibility](https://www.freecodecamp.org/learn/responsive-web-design#applied-accessibility)
 
+**Text Alternative to Images for Visually Impaired Accessibility**  
+
+```
+<img src="importantLogo.jpeg" alt="Company logo">
+```
+
+**Know When Alt Text Should be Left Blank**  
+
+Sometimes images are grouped with a caption already describing them, or are used for decoration only. In these cases, alt text may seem redundant or unnecessary.  
+
+```
+<img src="visualDecoration.jpeg" alt="">
+```
+
+**Background images** usually fall under the 'decorative' label as well.  
+However, they are typically applied with CSS rules, and therefore not part of the markup screen readers process.  

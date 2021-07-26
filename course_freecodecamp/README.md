@@ -2,6 +2,13 @@
 
 ## [Responsive Web Design](https://www.freecodecamp.org/learn/responsive-web-design/)  
 
+### Table of contents
+
+[Basic HTML and HTML5](https://github.com/marcelosperalta/study_html_css/tree/master/course_freecodecamp#basic-html-and-html5)  
+[Basic CSS](https://github.com/marcelosperalta/study_html_css/tree/master/course_freecodecamp#basic-css)  
+[Basic HTML and HTML5](https://github.com/marcelosperalta/study_html_css/tree/master/course_freecodecamp#basic-html-and-html5)  
+[Basic HTML and HTML5](https://github.com/marcelosperalta/study_html_css/tree/master/course_freecodecamp#basic-html-and-html5)  
+
 ### [Basic HTML and HTML5](https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5)  
 
 HTML5 introduces more descriptive HTML tags. These include main, header, footer, nav, video, article, section and others.  
@@ -168,7 +175,7 @@ color: rgb(0, 0, 255);
 </style>
 ```
 
-### Applied Visual Design
+### [Applied Visual Design](https://www.freecodecamp.org/learn/responsive-web-design#applied-visual-design)
 
 - Use the ```<u>``` Tag to Underline Text
 
@@ -848,3 +855,6 @@ example 2:
 <div class="balls" id="blue"></div>
 <div class="balls" id="green"></div>
 ```
+
+### [Applied Accessibility](https://www.freecodecamp.org/learn/responsive-web-design#applied-accessibility)
+

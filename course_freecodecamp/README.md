@@ -963,3 +963,11 @@ Similar to header and nav, the footer element has a built-in landmark feature th
 </body>
 ```
 
+**Improve Accessibility of Audio Content with the audio Element**  
+
+HTML5's ``audio`` element gives semantic meaning when it wraps sound or audio stream content in your markup.  
+The ``audio`` tag supports the ``controls`` attribute. This shows the browser default play, pause, and other controls, and supports keyboard functionality. This is a boolean attribute, meaning it doesn't need a value, its presence on the tag turns the setting on.  
+
+**Improve Chart Accessibility with the figure Element**  
+
+HTML5 introduced the ``figure`` element and the related ``figcaption``. Used together, these items wrap a visual representation (like an image, diagram, or chart) along with its caption.  

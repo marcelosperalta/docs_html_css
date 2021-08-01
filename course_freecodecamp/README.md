@@ -971,3 +971,34 @@ The ``audio`` tag supports the ``controls`` attribute. This shows the browser de
 **Improve Chart Accessibility with the figure Element**  
 
 HTML5 introduced the ``figure`` element and the related ``figcaption``. Used together, these items wrap a visual representation (like an image, diagram, or chart) along with its caption.  
+
+**Improve Form Field Accessibility with the label Element**  
+
+The ``label`` tag wraps the text for a specific form control item, usually the name or label for a choice.  
+
+The value of the for attribute must be the same as the value of the id attribute of the form control. Here's an example:  
+
+```
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+</form>
+```
+
+**Wrap Radio Buttons in a fieldset Element for Better Accessibility**  
+
+```
+<form>
+  <fieldset>
+    <legend>Choose one of these three items:</legend>
+    <input id="one" type="radio" name="items" value="one">
+    <label for="one">Choice One</label><br>
+    <input id="two" type="radio" name="items" value="two">
+    <label for="two">Choice Two</label><br>
+    <input id="three" type="radio" name="items" value="three">
+    <label for="three">Choice Three</label>
+  </fieldset>
+</form>
+```
+
+**Add an Accessible Date Picker**  

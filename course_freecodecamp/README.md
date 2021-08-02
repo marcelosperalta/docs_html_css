@@ -1002,3 +1002,14 @@ The value of the for attribute must be the same as the value of the id attribute
 ```
 
 **Add an Accessible Date Picker**  
+
+```
+<label for="input1">Enter a date:</label>
+<input type="date" id="input1" name="input1">
+```
+
+**Standardize Times with the HTML5 datetime Attribute**  
+
+```
+<p>Thank you to everyone for responding to Master Camper Cat's survey. The best day to host the vaunted Mortal Kombat tournament is <time datetime="2016-09-15">Thursday, September 15<sup>th</sup></time>. May the best ninja win!</p>
+```

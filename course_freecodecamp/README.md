@@ -1013,3 +1013,35 @@ The value of the for attribute must be the same as the value of the id attribute
 ```
 <p>Thank you to everyone for responding to Master Camper Cat's survey. The best day to host the vaunted Mortal Kombat tournament is <time datetime="2016-09-15">Thursday, September 15<sup>th</sup></time>. May the best ninja win!</p>
 ```
+
+**Make Elements Only Visible to a Screen Reader by Using Custom CSS**  
+
+CSS's magic can also improve accessibility on your page when you want to visually hide content meant only for screen readers. This happens when information is in a visual format (like a chart), but screen reader users need an alternative presentation (like a table) to access the data. CSS is used to position the screen reader-only elements off the visual area of the browser window.  
+
+Here's an example of the CSS rules that accomplish this:  
+
+```
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+}
+```
+
+display: none; or visibility: hidden; hides content for everyone, including screen reader users  
+
+Zero values for pixel sizes, such as width: 0px; height: 0px; removes that element from the flow of your document, meaning screen readers will ignore it  
+
+**Improve Readability with High Contrast Text**  
+
+Low contrast between the foreground and background colors can make text difficult to read. Sufficient contrast improves your content's readability, but what exactly does "sufficient" mean?  
+
+The Web Content Accessibility Guidelines (WCAG) recommend at least a 4.5 to 1 contrast ratio for normal text. The ratio is calculated by comparing the relative luminance values of two colors. This ranges from 1:1 for the same color, or no contrast, to 21:1 for white against black, the most substantial contrast. There are many contrast checking tools available online that calculate this ratio for you.  
+
+:link: [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)  
+
+
+

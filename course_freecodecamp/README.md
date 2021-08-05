@@ -1043,5 +1043,17 @@ The Web Content Accessibility Guidelines (WCAG) recommend at least a 4.5 to 1 co
 
 :link: [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)  
 
+**Avoid Colorblindness Issues by Using Sufficient Contrast**  
+
+Color is a large part of visual design, but its use introduces two accessibility issues. First, color alone should not be used as the only way to convey important information because screen reader users won't see it. Second, foreground and background colors need sufficient contrast so colorblind users can distinguish them.  
+
+**Avoid Colorblindness Issues by Carefully Choosing Colors that Convey Information**  
+
+There are various forms of colorblindness. These can range from a reduced sensitivity to a certain wavelength of light to the inability to see color at all. The most common form is a reduced sensitivity to detect greens.  
+
+[Color Blindness Simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/)  
+
+
+
 
 

@@ -8,7 +8,7 @@
 [Basic CSS](https://github.com/marcelosperalta/study_html_css/tree/master/course_freecodecamp#basic-css)  
 [Applied Visual Design](https://github.com/marcelosperalta/study_html_css/tree/master/course_freecodecamp#applied-visual-design)  
 [Applied Accessibility](https://github.com/marcelosperalta/study_html_css/tree/master/course_freecodecamp#applied-accessibility)  
-[Responsive Web Design Principles](https://github.com/marcelosperalta/study_html_css/tree/master/course_freecodecamp#applied-accessibility)  
+[Responsive Web Design Principles](https://github.com/marcelosperalta/study_html_css/tree/master/course_freecodecamp#responsive-web-design-principles)  
 
 ### [Basic HTML and HTML5](https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5)  
 

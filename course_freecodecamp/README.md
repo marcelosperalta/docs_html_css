@@ -1174,5 +1174,5 @@ Here is an example that sets a body tag to 30% of the viewport's width.
 body { width: 30vw; }
 ```
 
-[CSS Flexbox](https://www.freecodecamp.org/learn/responsive-web-design/#css-flexbox)  
+### [CSS Flexbox](https://www.freecodecamp.org/learn/responsive-web-design/#css-flexbox)  
 

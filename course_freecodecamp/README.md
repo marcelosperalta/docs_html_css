@@ -1176,3 +1176,12 @@ body { width: 30vw; }
 
 ### [CSS Flexbox](https://www.freecodecamp.org/learn/responsive-web-design/#css-flexbox)  
 
+Flexbox is a powerful, well-supported layout method that was introduced with the latest version of CSS, CSS3. With flexbox, it's easy to center elements on the page and create dynamic user interfaces that shrink and expand automatically.  
+
+In this course, you'll learn the fundamentals of flexbox and dynamic layouts by building a Twitter card.  
+
+**Use display: flex to Position Two Boxes**  
+
+Placing the CSS property display: flex; on an element allows you to use other flex properties to build a responsive page.  
+
+**Add Flex Superpowers to the Tweet Embed**  

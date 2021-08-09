@@ -1185,3 +1185,18 @@ In this course, you'll learn the fundamentals of flexbox and dynamic layouts by 
 Placing the CSS property display: flex; on an element allows you to use other flex properties to build a responsive page.  
 
 **Add Flex Superpowers to the Tweet Embed**  
+
+**Use the flex-direction Property to Make a Row**  
+
+Adding ``display: flex`` to an element turns it into a flex container. This makes it possible to align any children of that element into rows or columns. You do this by adding the ``flex-direction`` property to the parent item and setting it to row or column. Creating a row will align the children horizontally, and creating a column will align the children vertically.  
+
+Other options for ``flex-direction`` are row-reverse and column-reverse.  
+
+Note: The default value for the ``flex-direction`` property is row.  
+
+**Apply the flex-direction Property to Create Rows in the Tweet Embed**  
+
+**Use the flex-direction Property to Make a Column**  
+
+**Apply the flex-direction Property to Create a Column in the Tweet Embed**  
+

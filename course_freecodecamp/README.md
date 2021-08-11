@@ -1297,7 +1297,7 @@ The final property for flex items is ``align-self``. This property allows you to
 
 ``align-self`` accepts the same values as align-items and will override any value set by the align-items property.  
 
-[CSS Grid](https://www.freecodecamp.org/learn/responsive-web-design/#css-grid)  
+### [CSS Grid](https://www.freecodecamp.org/learn/responsive-web-design/#css-grid)  
 
 The CSS grid is a newer standard that makes it easy to build complex responsive layouts. It works by turning an HTML element into a grid, and lets you place child elements anywhere within.  
 

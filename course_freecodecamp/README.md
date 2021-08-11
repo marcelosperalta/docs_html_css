@@ -10,7 +10,7 @@
 [Applied Accessibility](https://github.com/marcelosperalta/study_html_css/tree/master/course_freecodecamp#applied-accessibility)  
 [Responsive Web Design Principles](https://github.com/marcelosperalta/study_html_css/tree/master/course_freecodecamp#responsive-web-design-principles)  
 [CSS Flexbox](https://github.com/marcelosperalta/study_html_css/tree/master/course_freecodecamp#css-flexbox)  
-[CSS Grid](https://www.freecodecamp.org/learn/responsive-web-design/#css-grid)  
+[CSS Grid](https://github.com/marcelosperalta/study_html_css/tree/master/course_freecodecamp#css-grid)  
 
 ### [Basic HTML and HTML5](https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5)  
 

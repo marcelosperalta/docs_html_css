@@ -1302,3 +1302,26 @@ The final property for flex items is ``align-self``. This property allows you to
 The CSS grid is a newer standard that makes it easy to build complex responsive layouts. It works by turning an HTML element into a grid, and lets you place child elements anywhere within.  
 
 In this course, you'll learn the fundamentals of CSS grid by building different complex layouts, including a blog.  
+
+**Create Your First CSS Grid**  
+
+Turn any HTML element into a grid container by setting its display property to grid. This gives you the ability to use all the other properties associated with CSS Grid.  
+
+Note: In CSS Grid, the parent element is referred to as the container and its children are called items.  
+
+**Add Columns with grid-template-columns**  
+
+Simply creating a grid element doesn't get you very far. You need to define the structure of the grid as well. To add some columns to the grid, use the grid-template-columns property on a grid container as demonstrated below:  
+
+```
+.container {
+  display: grid;
+  grid-template-columns: 50px 50px;
+}
+```
+
+This will give your grid two columns that are each 50px wide. The number of parameters given to the grid-template-columns property indicates the number of columns in the grid, and the value of each parameter indicates the width of each column.  
+
+**Add Rows with grid-template-rows**  
+
+To adjust the rows manually, use the grid-template-rows property in the same way you used grid-template-columns in the previous challenge.  

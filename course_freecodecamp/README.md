@@ -1357,3 +1357,27 @@ This creates 10px of empty space between all of our columns.
 **Create a Row Gap using grid-row-gap**  
 
 You can add a gap in between the rows of a grid using ``grid-row-gap`` in the same way that you added a gap in between columns in the previous challenge.  
+
+**Add Gaps Faster with grid-gap**  
+
+``grid-gap`` is a shorthand property for ``grid-row-gap`` and ``grid-column-gap`` from the previous two challenges that's more convenient to use. If ``grid-gap`` has one value, it will create a gap between all rows and columns. However, if there are two values, it will use the first one to set the gap between the rows and the second value for the columns.  
+
+**Use grid-column to Control Spacing**  
+
+The ``grid-column`` property is ofr use on the grid items themselves.  
+
+The hypothetical horizontal and vertical lines that create the grid are referred to as lines. These lines are numbered starting with 1 at the top left corner of the grid and move right for columns and down for rows, counting upward.  
+
+To control the number of columns an item will consume, you can use the ``grid-column`` property in conjunction with the line numbers you want the item to start and stop at.  
+
+Here's an example:  
+
+```
+grid-column: 1 / 3;
+```
+
+This will make the item start at the first vertical line of the grid on the left and span to the 3rd line of the grid, consuming two columns.  
+
+**Use grid-row to Control Spacing**  
+
+Of course, you can make items consume multiple rows just like you can with columns. You define the horizontal lines you want an item to start and stop at using the ``grid-row`` property on a grid item.  

@@ -1381,3 +1381,66 @@ This will make the item start at the first vertical line of the grid on the left
 **Use grid-row to Control Spacing**  
 
 Of course, you can make items consume multiple rows just like you can with columns. You define the horizontal lines you want an item to start and stop at using the ``grid-row`` property on a grid item.  
+
+**Align an Item Horizontally using justify-self**  
+
+In CSS Grid, the content of each item is located in a box which is referred to as a **cell**. You can align the content's position within its cell horizontally using the ``justify-self`` property on a grid item. By default, this property has a value of ``stretch``, which will make the content fill the whole width of the cell. This CSS Grid property accepts other values as well:  
+
+``start``: aligns the content at the left of the cell, 
+
+``center``: aligns the content in the center of the cell, 
+
+``end``: aligns the content at the right of the cell. 
+
+**Align an Item Vertically using align-self**  
+
+Just as you can align an item horizontally, there's a way to align an item vertically as well. To do this, you use the ``align-self`` property on an item. This property accepts all of the same values as ``justify-self`` from the last challenge.  
+
+**Align All Items Horizontally using justify-items**  
+
+Sometimes you want all the items in your CSS Grid to share the same alignment. You can use the previously learned properties and align them individually, or you can align them all at once horizontally by using **justify-items** on your grid container. This property can accept all the same values you learned about in the previous two challenges, the difference being that it will move all the items in our grid to the desired alignment.  
+
+**Align All Items Vertically using align-items**  
+
+Using the ``align-items`` property on a grid container will set the vertical alignment for all the items in our grid.  
+
+**Divide the Grid Into an Area Template**  
+
+You can group cells of your grid together into an area and give the area a custom name. Do this by using ``grid-template-areas`` on the container like this:  
+
+```
+grid-template-areas:
+  "header header header"
+  "advert content content"
+  "advert footer footer";
+```
+
+The code above groups the cells of the grid into four areas; ``header``, ``advert``, ``content``, and ``footer``. Every word represents a cell and every pair of quotation marks represent a row.  
+
+**Place Items in Grid Areas Using the grid-area Property**  
+
+After creating an area template for your grid container, as shown in the previous challenge, you can place an item in your custom area by referencing the name you gave it. To do this, you use the ``grid-area`` property on an item like this:  
+
+```
+.item1 {
+  grid-area: header;
+}
+```
+
+This lets the grid know that you want the item1 class to go in the area named ``header``. In this case, the item will use the entire top row because that whole row is named as the header area.  
+
+**Use grid-area Without Creating an Areas Template**  
+
+The ``grid-area`` property you learned in the last challenge can be used in another way. If your grid doesn't have an areas template to reference, you can create an area on the fly for an item to be placed like this:  
+
+```
+item1 { grid-area: 1/1/2/4; }
+```
+
+This is using the line numbers you learned about earlier to define where the area for this item will be. The numbers in the example above represent these values:  
+
+```
+grid-area: horizontal line to start at / vertical line to start at / horizontal line to end at / vertical line to end at;
+```
+
+So the item in the example will consume the rows between lines 1 and 2, and the columns between lines 1 and 4.  

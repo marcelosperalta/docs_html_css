@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludwig van Beethoven</title>
+    <style>
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+        main figure {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        main figure img {
+            max-width: 100%;
+            height: auto;
+            padding-bottom: 10px;
+        }
+        main section ul li {
+            line-height: 30px;
+        }
+
+        @media (max-width: 460px) {
+            main {
+                font-size: 12px;
+            }
+            main section ul li {
+                line-height: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main id="main">
+        <h1 id="title">Ludwig van Beethoven</h1>
+        <figure id="img-div">
+            <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Beethoven.jpg/199px-Beethoven.jpg">
+            <figcaption id="img-caption">
+            Portrait of Beethoven by Joseph Karl Stieler, 1820
+            </figcaption>
+        </figure>
+        <section id="tribute-info">
+            <h3>Life and career</h3>
+            <ul>
+                <li><strong>1780-1792: Bonn</strong> - Beethoven began his studies with his most important teacher in Bonn, Christian Gottlob Neefe. </li>
+                <li><strong>1792-1802: Vienna</strong> - Beethoven left Bonn for Vienna in November 1792, amid rumours of war spilling out of France; he learned shortly after his arrival that his father had died.</li>
+                <li><strong>1802-1812: The 'heroic' period</strong> - Beethoven told the English pianist Charles Neate (in 1815) that he dated his hearing loss from a fit he suffered in 1798 induced by a quarrel with a singer.</li>
+                <li><strong>1813-1822: Acclaim</strong> - In early 1813 Beethoven apparently went through a difficult emotional period, and his compositional output dropped.</li>
+                <li><strong>1823-1827: The final years</strong> - The year 1823 saw the completion of three notable works, all of which had occupied Beethoven for some years, namely the Missa solemnis, the Ninth Symphony and the Diabelli Variations.</li>
+            </ul>
+            <h3>
+                Discover more about this great composer and pianist <a id="tribute-info" href="https://en.wikipedia.org/wiki/Ludwig_van_Beethoven" target="_blank">going to this Wikipedia's article</a>.
+            </h3>
+        </section>
+    </main>
+</body>
+</html>
+

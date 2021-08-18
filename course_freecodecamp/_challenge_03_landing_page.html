@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            min-height: 30px;
+            padding: 0px 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #eee;
+        }
+        header nav > ul {
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+        main section {
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 460px) {
+            header {
+                width: 100vw;
+            }
+            header nav > ul {
+                width: 100%;
+                flex-direction: column;
+                align-items: flex-end;
+            }
+            main {
+                margin-top: 100px;
+            }
+            main section {
+                margin-left: 10px;
+            }
+            main #video {
+                width: 360px;
+                height: 202.5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <img 
+            id="header-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Steinway_and_Sons_logo.svg/320px-Steinway_and_Sons_logo.svg.png" 
+            alt="steinway logo"
+            width="100px"
+        >
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a class="nav-link" href="#features">
+                        Features
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#how-it-works">
+                        How It Works
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#pricing">
+                        Pricing
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="features">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, sapiente. Voluptatibus, 
+            reprehenderit? Debitis odio, illo fugit est sunt, eaque ad excepturi ut eos maiores ab doloribus 
+            ex culpa, unde dolore?
+        </section>
+        <section id="how-it-works">
+            <iframe 
+                id="video"
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/mnquWUItsVM" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </section>
+        <section id="pricing">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, sapiente. Voluptatibus, 
+            reprehenderit? Debitis odio, illo fugit est sunt, eaque ad excepturi ut eos maiores ab doloribus 
+            ex culpa, unde dolore?
+        </section>
+        <form id="form" action="https://www.freecodecamp.org/email-submit">
+            <input 
+                id="email" 
+                name="email"
+                type="email"
+                placeholder="Your email."
+                required
+            >
+            <input 
+                id="submit" 
+                type="submit"
+            >
+        </form>
+    </main>
+</body>
+</html>

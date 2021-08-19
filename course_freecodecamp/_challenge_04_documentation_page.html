@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        nav {
+            position: fixed;
+            min-width: 200px;
+            top: 0px;
+            left: 0px;
+            width: 300px;
+            height: 100%;
+            border-right: solid;
+            border-color: rgba(0, 22, 22, 0.4);
+        }
+        nav ul li {
+            padding: 10px 0 10px 0;
+        }
+        nav,
+        main {
+            margin: 10px 0 0 10px;
+        }
+        main {
+            position: absolute;
+            margin-left: 310px;
+            padding: 20px;
+            margin-bottom: 110px;
+        }
+        nav header,
+        main section header {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        main section article p {
+            line-height: 22px;
+            margin: 10px 0 10px 0;
+        }
+        main section article code {
+            display: block;
+            text-align: left;
+            white-space: pre-line;
+            position: relative;
+            word-break: normal;
+            word-wrap: normal;
+            line-height: 2;
+            background-color: #f7f7f7;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 460px) {
+            nav {
+                display: none;
+            }
+            main {
+                position: relative;
+                margin-left: 10px;
+                padding: 10px;
+                margin-bottom: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <header>React</header>
+        <ul>
+            <li><a class="nav-link" href="#React">React</a></li>
+            <li><a class="nav-link" href="#Declarative">Declarative</a></li>
+            <li><a class="nav-link" href="#Component_Based">Component Based</a></li>
+            <li><a class="nav-link" href="#Learn_Once_Write_Anywhere">Learn Once Write Anywhere</a></li>
+            <li><a class="nav-link" href="#The_Plan_for_React_18">The Plan for React 18</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="React">
+            <header>React</header>
+            <article>
+                <p>
+                    A JavaScript library for building user interfaces
+                </p>
+                <p>
+                    React (also known as React.js or ReactJS) is a free 
+                    and open-source front-end JavaScript library for building user interfaces 
+                    or UI components. It is maintained by Facebook and a community of individual 
+                    developers and companies.
+                </p>
+                <p>
+                    React can be used as a base in the development of single-page 
+                    or mobile applications. However, React is only concerned with state management 
+                    and rendering that state to the DOM, so creating React applications 
+                    usually requires the use of additional libraries for routing, 
+                    as well as certain client-side functionality.
+                </p>
+                <ul>
+                    <li>props</li>
+                    <li>state</li>
+                    <li>class</li>
+                    <li>function</li>
+                    <li>this</li>
+                </ul>
+                </ul>
+                <code>this.props.name</code>
+            </article>
+        </section>
+
+        <section class="main-section" id="Declarative">
+            <header>Declarative</header>
+            <article>
+                <p>
+                    React makes it painless to create interactive UIs. Design simple views 
+                    for each state in your application, and React will efficiently update 
+                    and render just the right components when your data changes.
+                </p>
+                <p>
+                    Declarative views make your code more predictable and easier to debug.
+                </p>
+                <code>this.state.name</code>
+            </article>
+        </section>
+
+        <section class="main-section" id="Component_Based">
+            <header>Component Based</header>
+            <article>
+                <p>
+                    Build encapsulated components that manage their own state, 
+                    then compose them to make complex UIs.
+                </p>
+                <p>
+                    Since component logic is written in JavaScript instead of templates, 
+                    you can easily pass rich data through your app and keep state out of the DOM.
+                </p>
+                <code>render()</code>
+            </article>
+        </section>
+
+        <section class="main-section" id="Learn_Once_Write_Anywhere">
+            <header>Learn Once Write Anywhere</header>
+            <article>
+                <p>
+                    We don’t make assumptions about the rest of your technology stack, 
+                    so you can develop new features in React without rewriting existing code.
+                </p>
+                <p>
+                    React can also render on the server using Node 
+                    and power mobile apps using React Native.
+                </p>
+                <code>class Timer extends React.Component</code>
+            </article>
+        </section>
+
+        <section class="main-section" id="The_Plan_for_React_18">
+            <header>The Plan for React 18</header>
+            <article>
+                <p>
+                    When it’s released, React 18 will include out-of-the-box improvements 
+                    (like automatic batching), new APIs (like startTransition), 
+                    and a new streaming server renderer with built-in support for React.lazy
+                </p>
+                <p>
+                    These features are possible thanks to a new opt-in mechanism we’re adding in React 18. 
+                    It’s called “concurrent rendering” and it lets React prepare multiple versions 
+                    of the UI at the same time. This change is mostly behind-the-scenes, 
+                    but it unlocks new possibilities to improve both real 
+                    and perceived performance of your app.
+                </p>
+                <p>
+                    If you’ve been following our research into the future of React (we don’t expect you to!), 
+                    you might have heard of something called “concurrent mode” or that it might break your app. 
+                    In response to this feedback from the community, we’ve redesigned the upgrade strategy 
+                    for gradual adoption. Instead of an all-or-nothing “mode”, concurrent rendering will only 
+                    be enabled for updates triggered by one of the new features. In practice, 
+                    this means you will be able to adopt React 18 without rewrites and try the 
+                    new features at your own pace.
+                </p>
+                <code>this.setState({ text: e.target.value });</code>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

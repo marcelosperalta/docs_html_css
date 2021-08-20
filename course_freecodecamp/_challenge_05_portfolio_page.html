@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Webpage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav {
+            height: 5vh;
+            padding: 5px;
+            position: fixed;
+            width: 100vw;
+            background-color: lightblue;
+            line-height: 30px;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            margin: 0 20px 0 0;
+            text-decoration: none;
+        }
+        #projects,
+        #footer,
+        #welcome-section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        figure {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        section div a,
+        footer a {
+            text-decoration: none;
+        }
+        footer a {
+            font-size: 32px;
+        }
+        section div a figure figcaption{
+            margin: 10px 0 0 0;
+        }
+        #welcome-section {
+            background-color: lightcyan;
+            font-size: 32px;
+        }
+        #projects {
+            background-color: rgb(189, 226, 226);
+        }
+        #footer {
+            background-color: rgb(140, 192, 192);
+        }
+
+        @media (max-width: 460px) {
+            nav {
+                display: none;
+            }
+            section div a figure img {
+                width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <a href="#welcome-section">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#profile-link">Profile</a>
+    </nav>
+
+    <section id="welcome-section">
+        <h1>Welcome</h1>
+    </section>
+
+    <section id="projects">
+        <div class="project-tile">
+            <a 
+                href="https://marcelosperalta.github.io/app_front-end_e-learning_platform/"
+                target="_blank"
+            >
+                <figure>
+                    <img width="500px" src="https://raw.githubusercontent.com/marcelosperalta/app_front-end_e-learning_platform/master/readme/screenshots/home_desk.png">
+                    <figcaption id="img-caption" >
+                        Proffy - Sua plataforma de estudos online
+                    </figcaption>
+                </figure>
+            </a>
+        </div>
+    </section>
+    <footer id="footer">
+        <a id="profile-link" href="https://github.com/marcelosperalta" target="_blank">GitHub</a>
+    </footer>
+</body>
+</html>

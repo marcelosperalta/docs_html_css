@@ -17,12 +17,14 @@
 ### [CSS](https://github.com/marcelosperalta/study_html_css#css-1)
 
 * [CSS-in-JS]()
+* [Articles](https://github.com/marcelosperalta/docs_html_css#newspaper-articles)
 
 ## HTML
 
-[WHATWG - current HTML standard](https://html.spec.whatwg.org/multipage/)
+### Documentation
 
-[MDN web docs (Mozilla Developer Network) - HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [WHATWG - current HTML standard](https://html.spec.whatwg.org/multipage/)
+* [MDN web docs (Mozilla Developer Network) - HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
 ### [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
@@ -55,9 +57,20 @@ title
 
 ## CSS
 
-[W3C - current state of Cascading Style Sheets (CSS)](https://www.w3.org/TR/CSS/#css)
+### Documentation
 
-[MDN web docs (Mozilla Developer Network) - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [W3C - current state of Cascading Style Sheets (CSS)](https://www.w3.org/TR/CSS/#css)
+* [MDN web docs (Mozilla Developer Network) - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+### CSS-in-JS
+
+* [Emotion](https://emotion.sh/docs/introduction)
+* [styled-components](https://styled-components.com/)
+* [JSS](https://cssinjs.org/)
+
+### Design methodologies
+
+* [BEM](http://getbem.com/)
 
 ### :newspaper: Articles
 

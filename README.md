@@ -65,6 +65,11 @@ title
 * [W3C - current state of Cascading Style Sheets (CSS)](https://www.w3.org/TR/CSS/#css)
 * [MDN web docs (Mozilla Developer Network) - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
+### Preprocessor
+
+* [Sass](https://sass-lang.com/)
+* [Less](https://lesscss.org/)
+
 ### CSS-in-JS
 
 * [Emotion](https://emotion.sh/docs/introduction)
@@ -74,6 +79,11 @@ title
 ### Design methodologies
 
 * [BEM](http://getbem.com/)
+
+### Framework
+
+* [Bootstrap](https://getbootstrap.com/)
+* [Foundation](https://get.foundation/)
 
 ### Articles
 

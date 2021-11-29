@@ -76,6 +76,7 @@ title
 
 * [Emotion](https://emotion.sh/docs/introduction)
 * [styled-components](https://styled-components.com/)
+    * [VSC Syntax highlighting and IntelliSense](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 * [JSS](https://cssinjs.org/)
 
 ### Design methodologies

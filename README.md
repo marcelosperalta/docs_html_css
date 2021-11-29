@@ -56,7 +56,7 @@ title
 
 ### Courses
 
-[freeCodeCamp - Responsive Web Design](./course_freecodecamp)  
+* [freeCodeCamp - Responsive Web Design](./course_freecodecamp)  
 
 ## CSS
 

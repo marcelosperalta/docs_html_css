@@ -1,4 +1,4 @@
-# Summary
+# Table of Contents
 
 ## [HTML](https://github.com/marcelosperalta/study_html_css#html-1)
 - [HTML elements reference](https://github.com/marcelosperalta/study_html_css#html-elements-reference)

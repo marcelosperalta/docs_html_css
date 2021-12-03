@@ -24,6 +24,8 @@
 * [Framework](https://github.com/marcelosperalta/docs_html_css#framework)
 * [Articles](https://github.com/marcelosperalta/docs_html_css#newspaper-articles)
 
+<hr>
+
 ## HTML
 
 ### Documentation
@@ -33,32 +35,46 @@
 
 ### [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
-\<html>  
-\<base>  
-\<head>  
-\<link>  
-\<meta>  
-\<style>  
-\<title>  
-\<body>  
-\<address>  
-\<article>  
-[...](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+* \<html>
+* \<base>
+* \<head>
+* \<link>
+* \<meta>
+* \<style>
+* \<title>
+* \<body>
+* \<address>
+* \<article>
+* [...](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
 ### [Global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
 
 Global attributes are attributes common to all HTML elements; they can be used on all elements, though they may have no effect on some elements[...](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
 
-class  
-hidden  
-id  
-style  
-title  
-[...](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
+* class
+* hidden
+* id
+* style 
+* title
+* [...](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
+
+<hr>
+
+### Tools
+
+#### Design System Tools
+
+* [Figma](https://www.figma.com/)
+* [Zepelin](https://zeplin.io/)
+
+<hr>
 
 ### Courses
 
 * [freeCodeCamp - Responsive Web Design](./course_freecodecamp)  
+
+<hr>
+<hr>
 
 ## CSS
 
@@ -67,10 +83,14 @@ title
 * [W3C - current state of Cascading Style Sheets (CSS)](https://www.w3.org/TR/CSS/#css)
 * [MDN web docs (Mozilla Developer Network) - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
+<hr>
+
 ### Preprocessor
 
 * [Sass](https://sass-lang.com/)
 * [Less](https://lesscss.org/)
+
+<hr>
 
 ### CSS-in-JS
 
@@ -80,19 +100,25 @@ title
 * [JSS](https://cssinjs.org/)
 * [glamorous](https://glamorous.rocks/)
 
+<hr>
+
 ### Design methodologies
 
 * [BEM](http://getbem.com/)
+
+<hr>
 
 ### Framework
 
 * [Bootstrap](https://getbootstrap.com/)
 * [Foundation](https://get.foundation/)
 
+<hr>
+
 ### Articles
 
 * :link: [Flexbox vs Grid - How to Build the Most Common HTML Layouts](https://www.freecodecamp.org/news/flexbox-vs-grid-how-to-build-the-most-common-html-layouts/)  
-    * :file_folder: [article_ondrej_polesny](https://github.com/marcelosperalta/study_html_css/tree/master/article_ondrej_polesny)  
+    * :file_folder: [article_ondrej_polesny](https://github.com/marcelosperalta/study_html_css/tree/master/article_ondrej_polesny)
 
 * :link: [HTML Center Text – How to CSS Vertical Align a Div](https://www.freecodecamp.org/news/html-center-text-how-to-css-vertical-align-a-div/)  
-    * :file_folder: [article_said_hayani](https://github.com/marcelosperalta/study_html_css/tree/master/article_said_hayani)  
+    * :file_folder: [article_said_hayani](https://github.com/marcelosperalta/study_html_css/tree/master/article_said_hayani)

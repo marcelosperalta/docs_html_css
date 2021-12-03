@@ -11,13 +11,14 @@
 ### [HTML](https://github.com/marcelosperalta/study_html_css#html-1)
 
 * [Documentation](https://github.com/marcelosperalta/docs_html_css#documentation)
-* [HTML elements reference](https://github.com/marcelosperalta/study_html_css#html-elements-reference)
-* [Global attributes](https://github.com/marcelosperalta/study_html_css#global-attributes)
-* [Courses](https://github.com/marcelosperalta/study_html_css#courses)
+* [HTML elements reference](https://github.com/marcelosperalta/docs_html_css#html-elements-reference)
+* [Global attributes](https://github.com/marcelosperalta/docs_html_css#global-attributes)
+* [Courses](https://github.com/marcelosperalta/docs_html_css#courses)
 
-### [CSS](https://github.com/marcelosperalta/study_html_css#css-1)
+### [CSS](https://github.com/marcelosperalta/docs_html_css#css-1)
 
 * [Documentation](https://github.com/marcelosperalta/docs_html_css#documentation-1)
+* [Design System Tools](https://github.com/marcelosperalta/docs_html_css#design-system-tools)
 * [Preprocessor](https://github.com/marcelosperalta/docs_html_css#preprocessor)
 * [CSS-in-JS](https://github.com/marcelosperalta/docs_html_css#css-in-js)
 * [Design methodologies](https://github.com/marcelosperalta/docs_html_css#design-methodologies)
@@ -115,7 +116,7 @@ Global attributes are attributes common to all HTML elements; they can be used o
 ### Articles
 
 * :link: [Flexbox vs Grid - How to Build the Most Common HTML Layouts](https://www.freecodecamp.org/news/flexbox-vs-grid-how-to-build-the-most-common-html-layouts/)  
-    * :file_folder: [article_ondrej_polesny](https://github.com/marcelosperalta/study_html_css/tree/master/article_ondrej_polesny)
+    * :file_folder: [article_ondrej_polesny](https://github.com/marcelosperalta/docs_html_css/tree/master/article_ondrej_polesny)
 
 * :link: [HTML Center Text – How to CSS Vertical Align a Div](https://www.freecodecamp.org/news/html-center-text-how-to-css-vertical-align-a-div/)  
-    * :file_folder: [article_said_hayani](https://github.com/marcelosperalta/study_html_css/tree/master/article_said_hayani)
+    * :file_folder: [article_said_hayani](https://github.com/marcelosperalta/docs_html_css/tree/master/article_said_hayani)

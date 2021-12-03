@@ -60,15 +60,6 @@ Global attributes are attributes common to all HTML elements; they can be used o
 
 <hr>
 
-### Tools
-
-#### Design System Tools
-
-* [Figma](https://www.figma.com/)
-* [Zepelin](https://zeplin.io/)
-
-<hr>
-
 ### Courses
 
 * [freeCodeCamp - Responsive Web Design](./course_freecodecamp)  
@@ -82,6 +73,13 @@ Global attributes are attributes common to all HTML elements; they can be used o
 
 * [W3C - current state of Cascading Style Sheets (CSS)](https://www.w3.org/TR/CSS/#css)
 * [MDN web docs (Mozilla Developer Network) - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+<hr>
+
+### Design System Tools
+
+* [Figma](https://www.figma.com/)
+* [Zepelin](https://zeplin.io/)
 
 <hr>
 

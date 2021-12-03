@@ -65,7 +65,6 @@ Global attributes are attributes common to all HTML elements; they can be used o
 * [freeCodeCamp - Responsive Web Design](./course_freecodecamp)  
 
 <hr>
-<hr>
 
 ## CSS
 

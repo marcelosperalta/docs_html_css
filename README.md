@@ -23,7 +23,7 @@
 * [CSS-in-JS](https://github.com/marcelosperalta/docs_html_css#css-in-js)
 * [Design methodologies](https://github.com/marcelosperalta/docs_html_css#design-methodologies)
 * [Framework](https://github.com/marcelosperalta/docs_html_css#framework)
-* [Articles](https://github.com/marcelosperalta/docs_html_css#newspaper-articles)
+* [Articles](https://github.com/marcelosperalta/docs_html_css#articles)
 
 <hr>
 

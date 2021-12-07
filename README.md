@@ -110,6 +110,7 @@ Global attributes are attributes common to all HTML elements; they can be used o
 
 * [Bootstrap](https://getbootstrap.com/)
 * [Foundation](https://get.foundation/)
+* [tailwindcss](https://tailwindcss.com/)
 
 <hr>
 

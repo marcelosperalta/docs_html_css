@@ -8,7 +8,7 @@
 
 ## :arrow_heading_down: Table of Contents
 
-### [Glossary](https://github.com/marcelosperalta/docs_html_css#glossary)
+### [Glossary](https://github.com/marcelosperalta/docs_html_css#glossary-1)
 
 ### [HTML](https://github.com/marcelosperalta/study_html_css#html-1)
 

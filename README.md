@@ -8,7 +8,7 @@
 
 ## :arrow_heading_down: Table of Contents
 
-### Glossary ()
+### [Glossary](https://github.com/marcelosperalta/docs_html_css#glossary)
 
 ### [HTML](https://github.com/marcelosperalta/study_html_css#html-1)
 
@@ -69,8 +69,6 @@ Global attributes are attributes common to all HTML elements; they can be used o
 * title
 * [...](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
 
-<hr>
-
 ### Courses
 
 * [freeCodeCamp - Responsive Web Design](./course_freecodecamp)  
@@ -84,21 +82,15 @@ Global attributes are attributes common to all HTML elements; they can be used o
 * [W3C - current state of Cascading Style Sheets (CSS)](https://www.w3.org/TR/CSS/#css)
 * [MDN web docs (Mozilla Developer Network) - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-<hr>
-
 ### Design System Tools
 
 * [Figma](https://www.figma.com/)
 * [Zepelin](https://zeplin.io/)
 
-<hr>
-
 ### Preprocessor
 
 * [Sass](https://sass-lang.com/)
 * [Less](https://lesscss.org/)
-
-<hr>
 
 ### CSS-in-JS
 
@@ -108,13 +100,9 @@ Global attributes are attributes common to all HTML elements; they can be used o
 * [JSS](https://cssinjs.org/)
 * [glamorous](https://glamorous.rocks/)
 
-<hr>
-
 ### Design methodologies
 
 * [BEM](http://getbem.com/)
-
-<hr>
 
 ### Framework
 
@@ -122,13 +110,9 @@ Global attributes are attributes common to all HTML elements; they can be used o
 * [Foundation](https://get.foundation/)
 * [tailwindcss](https://tailwindcss.com/)
 
-<hr>
-
 ### Software development tool
 
 * [PostCSS](https://postcss.org/)
-
-<hr>
 
 ### Articles
 

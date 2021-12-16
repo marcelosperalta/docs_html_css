@@ -99,6 +99,7 @@ Global attributes are attributes common to all HTML elements; they can be used o
     * [VSC Syntax highlighting and IntelliSense](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 * [JSS](https://cssinjs.org/)
 * [glamorous](https://glamorous.rocks/)
+* [polished](https://polished.js.org/)
 
 ### Design methodologies
 

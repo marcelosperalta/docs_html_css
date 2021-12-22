@@ -33,7 +33,7 @@
 
 ### [Prototyping / Wireframe](https://github.com/marcelosperalta/docs_html_css#prototyping--wireframe-1)
 
-### [Design system / Design language]()
+### [Design system / Design language](https://github.com/marcelosperalta/docs_html_css#design-system--design-language-1)
 
 ### [Content management system](https://github.com/marcelosperalta/docs_html_css#content-management-system-1)
 
@@ -200,20 +200,20 @@ Global attributes are attributes common to all HTML elements; they can be used o
 
 <hr>
 
+## Prototyping / Wireframe
+
+* [Figma](https://www.figma.com/)
+* [InVisionApp](https://www.invisionapp.com/)
+* [Whimsical](https://whimsical.com/)
+
+<hr>
+
 ### Design system / Design language
 
 * [Material Design](https://material.io/)
   * [Materialize](https://materializecss.com/)
   * [MUI](https://www.muicss.com/)
 * [Ant Design](https://ant.design/)
-
-<hr>
-
-## Prototyping / Wireframe
-
-* [Figma](https://www.figma.com/)
-* [InVisionApp](https://www.invisionapp.com/)
-* [Whimsical](https://whimsical.com/)
 
 <hr>
 

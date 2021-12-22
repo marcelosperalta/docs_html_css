@@ -89,55 +89,55 @@ Global attributes are attributes common to all HTML elements; they can be used o
 
 ### ``style``
 
-[global attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style)
+* [global attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style)
 
-```
-<html>
-<head>
-</head>
-<body>
-  <p style="color: red;">Global attribute</p>
-</body>
-</html>
-```
+  ```
+  <html>
+  <head>
+  </head>
+  <body>
+    <p style="color: red;">Global attribute</p>
+  </body>
+  </html>
+  ```
 
-[HTML element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style)
+* [HTML element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style)
 
-```
-<html>
-<head>
-  <style>
-    p {
-      color: red;
-    }
-  </style>
-</head>
-<body>
-  <p>HTML element</p>
-</body>
-</html>
-```
+  ```
+  <html>
+  <head>
+    <style>
+      p {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <p>HTML element</p>
+  </body>
+  </html>
+  ```
 
-[file](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+* [file](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
 
-file: **index.html**  
-```
-<html>
-<head>
-    <link href="style.css" rel="stylesheet">
-</head>
-<body>
-  <p>HTML element</p>
-</body>
-</html>
-```
+  file: **index.html**  
+  ```
+  <html>
+  <head>
+      <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <p>HTML element</p>
+  </body>
+  </html>
+  ```
 
-file: **style.css**  
-```
-p {
-  color: red;
-}
-```
+  file: **style.css**  
+  ```
+  p {
+    color: red;
+  }
+  ```
 
 ### Design System Tools
 

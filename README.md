@@ -87,7 +87,7 @@ Global attributes are attributes common to all HTML elements; they can be used o
 * [W3C - current state of Cascading Style Sheets (CSS)](https://www.w3.org/TR/CSS/#css)
 * [MDN web docs (Mozilla Developer Network) - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-### ``style``
+### style
 
 * [global attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style)
 

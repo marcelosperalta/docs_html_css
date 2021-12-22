@@ -120,7 +120,7 @@ Global attributes are attributes common to all HTML elements; they can be used o
 
 * [file](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
 
-  file: **index.html**  
+  **index.html**  
   ```
   <html>
   <head>
@@ -132,7 +132,7 @@ Global attributes are attributes common to all HTML elements; they can be used o
   </html>
   ```
 
-  file: **style.css**  
+  **style.css**  
   ```
   p {
     color: red;

@@ -70,6 +70,11 @@ Global attributes are attributes common to all HTML elements; they can be used o
 * title
 * [...](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
 
+## Debug (_Debugging_)
+
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/javascript/)
+* [Firefox Developer Tools](https://firefox-dev.tools/)
+
 ### Courses
 
 * [freeCodeCamp - Responsive Web Design](./course_freecodecamp)  

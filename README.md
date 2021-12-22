@@ -10,6 +10,8 @@
 
 ### [Glossary](https://github.com/marcelosperalta/docs_html_css#glossary-1)
 
+### [Prototyping / Wireframe]()
+
 ### [HTML](https://github.com/marcelosperalta/study_html_css#html-1)
 
 * [Documentation](https://github.com/marcelosperalta/docs_html_css#documentation)
@@ -37,6 +39,15 @@
 
 * [Modal window / Modal dialog](https://en.wikipedia.org/wiki/Modal_window)
     * In user interface design for computer applications, a modal window is a graphical control element subordinate to an application's main window. A modal window creates a mode that disables the main window but keeps it visible, with the modal window as a child window in front of it. Users must interact with the modal window before they can return to the parent application. This avoids interrupting the workflow on the main window. Modal windows are sometimes called heavy windows or modal dialogs because they often display a dialog box.
+* [Website wireframe](https://en.wikipedia.org/wiki/Website_wireframe)
+  * A website wireframe, also known as a page schematic or screen blueprint, is a visual guide that represents the skeletal framework of a website.The term wireframe is taken from other fields that use a skeletal framework to represent 3 dimensional shape and volume. Wireframes are created for the purpose of arranging elements to best accomplish a particular purpose. The purpose is usually driven by a business objective and a creative idea. The wireframe depicts the page layout or arrangement of the website's content, including interface elements and navigational systems, and how they work together.
+
+<hr>
+
+## Prototyping / Wireframe
+
+* [Figma](https://www.figma.com/)
+* []()
 
 <hr>
 

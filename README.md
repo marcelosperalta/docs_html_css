@@ -15,6 +15,8 @@
 * [Documentation](https://github.com/marcelosperalta/docs_html_css#documentation)
 * [HTML elements reference](https://github.com/marcelosperalta/docs_html_css#html-elements-reference)
 * [Global attributes](https://github.com/marcelosperalta/docs_html_css#global-attributes)
+* [Debug](https://github.com/marcelosperalta/docs_html_css#debug-debugging)
+* [Tools](https://github.com/marcelosperalta/docs_html_css#tools)
 * [Courses](https://github.com/marcelosperalta/docs_html_css#courses)
 
 ### [CSS](https://github.com/marcelosperalta/docs_html_css#css-1)
@@ -75,14 +77,14 @@ Global attributes are attributes common to all HTML elements; they can be used o
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/javascript/)
 * [Firefox Developer Tools](https://firefox-dev.tools/)
 
-### Courses
-
-* [freeCodeCamp - Responsive Web Design](./course_freecodecamp)  
-
 ### Tools
 
 * Automated tool for improving the quality of web pages
   * [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
+### Courses
+
+* [freeCodeCamp - Responsive Web Design](./course_freecodecamp)  
 
 <hr>
 

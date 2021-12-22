@@ -91,7 +91,6 @@ Global attributes are attributes common to all HTML elements; they can be used o
 
 as [global attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style)
 
-file: **index.html**  
 ```
 <html>
 <head>
@@ -111,7 +110,6 @@ file: **index.html**
 
 as [HTML element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style)
 
-file: **index.html**  
 ```
 <html>
 <head>

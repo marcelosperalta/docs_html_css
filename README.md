@@ -79,9 +79,10 @@ Global attributes are attributes common to all HTML elements; they can be used o
 
 * [freeCodeCamp - Responsive Web Design](./course_freecodecamp)  
 
-### Automated tool for improving the quality of web pages
+### Tools
 
-* [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+* Automated tool for improving the quality of web pages
+  * [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 <hr>
 

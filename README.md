@@ -91,14 +91,27 @@ Global attributes are attributes common to all HTML elements; they can be used o
 
 as [global attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style)
 
+file: **index.html**  
 ```
-<div style="background: #ffe7e8; border: 2px solid #e66465;">
-    Global Attribute
-</div>
+<html>
+<head>
+  <style>
+    p {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div style="background: #ffe7e8; border: 2px solid #e66465;">
+      Global Attribute
+  </div>
+</body>
+</html>
 ```
 
 as [HTML element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style)
 
+file: **index.html**  
 ```
 <html>
 <head>

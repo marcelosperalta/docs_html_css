@@ -8,15 +8,15 @@
 
 ## :arrow_heading_down: Table of Contents
 
-* [Glossary](https://github.com/marcelosperalta/docs_html_css#glossary-1)
-* [HTML](https://github.com/marcelosperalta/study_html_css#html-1)
+* [Glossary](https://github.com/marcelosperalta/docs_html_css#glossary)
+* [HTML](https://github.com/marcelosperalta/docs_html_css#html)
   * [Documentation](https://github.com/marcelosperalta/docs_html_css#documentation)
   * [HTML elements reference](https://github.com/marcelosperalta/docs_html_css#html-elements-reference)
   * [Global attributes](https://github.com/marcelosperalta/docs_html_css#global-attributes)
   * [Debug](https://github.com/marcelosperalta/docs_html_css#debug-debugging)
   * [Tools](https://github.com/marcelosperalta/docs_html_css#tools)
   * [Courses](https://github.com/marcelosperalta/docs_html_css#courses)
-* [CSS](https://github.com/marcelosperalta/docs_html_css#css-1)
+* [CSS](https://github.com/marcelosperalta/docs_html_css#css)
   * [Documentation](https://github.com/marcelosperalta/docs_html_css#documentation-1)
   * [style](https://github.com/marcelosperalta/docs_html_css#style)
   * [Design System Tools](https://github.com/marcelosperalta/docs_html_css#design-system-tools)
@@ -26,10 +26,10 @@
   * [Framework](https://github.com/marcelosperalta/docs_html_css#framework)
   * [Software development tool](https://github.com/marcelosperalta/docs_html_css#software-development-tool)
   * [Articles](https://github.com/marcelosperalta/docs_html_css#articles)
-* [Responsive web design (RWD)]()
-* [Prototyping / Wireframe](https://github.com/marcelosperalta/docs_html_css#prototyping--wireframe-1)
-* [Design system / Design language](https://github.com/marcelosperalta/docs_html_css#design-system--design-language-1)
-* [Content management system](https://github.com/marcelosperalta/docs_html_css#content-management-system-1)
+* [Responsive web design (RWD)](https://github.com/marcelosperalta/docs_html_css#responsive-web-design-rwd)
+* [Prototyping / Wireframe](https://github.com/marcelosperalta/docs_html_css#prototyping--wireframe)
+* [Design system / Design language](https://github.com/marcelosperalta/docs_html_css#design-system--design-language)
+* [Content management system](https://github.com/marcelosperalta/docs_html_css#content-management-system)
 
 <hr>
 

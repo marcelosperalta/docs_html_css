@@ -29,6 +29,8 @@
 * [Responsive web design (RWD)](https://github.com/marcelosperalta/docs_html_css#responsive-web-design-rwd)
 * [Prototyping / Wireframe](https://github.com/marcelosperalta/docs_html_css#prototyping--wireframe)
 * [Design system / Design language](https://github.com/marcelosperalta/docs_html_css#design-system--design-language)
+* [Fonts]()
+* [Stock Photos]()
 * [Content management system](https://github.com/marcelosperalta/docs_html_css#content-management-system)
 
 <hr>
@@ -219,6 +221,18 @@ Global attributes are attributes common to all HTML elements; they can be used o
   * [Materialize](https://materializecss.com/)
   * [MUI](https://www.muicss.com/)
 * [Ant Design](https://ant.design/)
+
+<hr>
+
+## Fonts
+
+* [Google Fonts](https://fonts.google.com/)
+
+<hr>
+
+## Stock Photos
+
+* [Unsplash](https://unsplash.com/)
 
 <hr>
 

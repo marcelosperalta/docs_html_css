@@ -31,7 +31,7 @@
 * [Design system / Design language](https://github.com/marcelosperalta/docs_html_css#design-system--design-language)
 * [Fonts](https://github.com/marcelosperalta/docs_html_css#fonts)
 * [Stock Photos](https://github.com/marcelosperalta/docs_html_css#stock-photos)
-* [Content management system (CMS)](https://github.com/marcelosperalta/docs_html_css#content-management-system)
+* [Content management system (CMS)](https://github.com/marcelosperalta/docs_html_css#content-management-system-cms)
 
 <hr>
 

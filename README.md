@@ -29,8 +29,8 @@
 * [Responsive web design (RWD)](https://github.com/marcelosperalta/docs_html_css#responsive-web-design-rwd)
 * [Prototyping / Wireframe](https://github.com/marcelosperalta/docs_html_css#prototyping--wireframe)
 * [Design system / Design language](https://github.com/marcelosperalta/docs_html_css#design-system--design-language)
-* [Fonts]()
-* [Stock Photos]()
+* [Fonts](https://github.com/marcelosperalta/docs_html_css#fonts)
+* [Stock Photos](https://github.com/marcelosperalta/docs_html_css#stock-photos)
 * [Content management system](https://github.com/marcelosperalta/docs_html_css#content-management-system)
 
 <hr>

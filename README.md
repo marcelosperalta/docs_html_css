@@ -32,7 +32,7 @@
 * [Fonts](https://github.com/marcelosperalta/docs_html_css#fonts)
 * [Stock Photos](https://github.com/marcelosperalta/docs_html_css#stock-photos)
 * [Content management system (CMS)](https://github.com/marcelosperalta/docs_html_css#content-management-system-cms)
-* []()
+* [Browser Support](https://github.com/marcelosperalta/docs_html_css/blob/master/README.md#browser-support)
 
 <hr>
 

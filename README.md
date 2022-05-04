@@ -199,6 +199,10 @@ Global attributes are attributes common to all HTML elements; they can be used o
 
 <hr>
 
+## Web Accessible
+
+* [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/)
+
 ## Responsive web design (RWD)
 
 ### Concepts
